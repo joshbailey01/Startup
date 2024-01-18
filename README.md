@@ -1,6 +1,10 @@
 
 ### PITCH
-    After interviewing university strudents across several campuses we found that the majority feel like they don't always know whats happening in the social scene. Turnt solves this problem. It is a wesbsite/app where people post, share, and save local parties. It alows people to see events happening near their area, can generate more business for DJ's and small pop up shops, and eliminates FOMO on college campuses.
+    After interviewing university strudents across several campuses we found that the majority feel 
+    like they don't always know whats happening in the social scene. Turnt solves this problem. 
+    It is a wesbsite/app where people post, share, and save local parties. It alows people to see events 
+    happening near their area, can generate more business for DJ's and small pop up shops, and 
+    eliminates FOMO on college campuses.
 
 ### FEATURES
     Secure login
