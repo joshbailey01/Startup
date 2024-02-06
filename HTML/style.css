@@ -29,6 +29,10 @@ body, h1, h2, h3, p, ul, li {
     color: #fff;
     text-decoration: none;
   }
+
+  .user {
+    text-align: right;
+  }
   
   /* Style the navigation menu */
   nav {
