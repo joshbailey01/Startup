@@ -7,6 +7,5 @@ function login() {
       password: password
     };
 
-    localStorage.setItem("User", user);
-    window.location.href = "home.html";
+    Database.users.push(user);
   }
