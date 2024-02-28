@@ -106,17 +106,6 @@ footer a {
 }
 
 /* Style post creation form */
-/* body.createPost {
-    font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  } */
-  
 #eventForm {
 background-color: #fff;
 border: 1px solid #ccc;
