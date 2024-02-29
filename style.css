@@ -39,6 +39,12 @@ header a {
     text-decoration: none;
 }
 
+header .username{
+    text-align: right;
+    margin: 5px;
+    padding: 3px;
+}
+
 /* Style the navigation menu */
 nav {
     background-color: #5c5c5c;
