@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TURNT</title>
     <link href="style.css" rel="stylesheet" type="text/css"></head>
-
-    <script src="dataBase.js"></script>
-
+    
 <body>
     <header>
         <div>
@@ -22,8 +20,25 @@
     </header>
 
     <main>
-        <p>**Feed Here (database)**</p>
+        <div class="post">
+            <img src="example_post.jpg" alt="Event Image">
+            <div class="like-button"><button id="like" onclick="likePost()">Like</button></div>
+            <!--link coppied when share button is clicked-->
+            <input type="text" value="https://startup.turnt.click/home.html" id="linkInput" readonly>
+            <div class="share-button"><button onclick="copyLink()">Share</button></div>
+            <div class="event-date">March 1, 2024</div>
+            <div class="event-location">Party Venue</div>
+            <div class="description">
+              <h2>Upcoming Party!</h2>
+              <p>Come join us for a night of fun and celebration. Music, dance, and good vibes guaranteed!</p>
+            </div>
+          </div>
+
+          <script src="userInteraction.js"></script>
+
     </main>
+
+    <script src="dataBase.js"></script>
 
     <footer>
         <a href="https://github.com/joshbailey01/Startup">My Repo</a>

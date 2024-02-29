@@ -47,6 +47,16 @@
           displayNotification(randomMessage);
         }, 5000); // Simulate a new notification every 5 seconds
       }
+
+      function sendLike() {
+        const message = 'JSON String with User and post data'; // Replace with your actual message
+        if (socket.readyState === WebSocket.OPEN) {
+          socket.send(message);
+          console.log('Message sent to server:', message);
+        } else {
+          console.error('WebSocket is not open.');
+        }
+      }
   
       // Initialize WebSocket connection
       const socket = initWebSocket();
