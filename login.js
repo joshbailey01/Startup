@@ -1,4 +1,4 @@
-function login() {
+function addUser() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
@@ -8,4 +8,5 @@ function login() {
     };
 
     Database.users.push(user);
+    localStorage.setItem('users', JSON.stringify(Database.users))
   }

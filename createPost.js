@@ -1,8 +1,8 @@
 function postEvent() {
-    var postImage = document.getElementById('postImage').value;
-    var eventLocation = document.getElementById('eventLocation').value;
-    var eventDate = document.getElementById('eventDate').value;
-    var eventDescription = document.getElementById('eventDescription').value;
+    var postImage = document.getElementById("postImage").value;
+    var eventLocation = document.getElementById("eventLocation").value;
+    var eventDate = document.getElementById("eventDate").value;
+    var eventDescription = document.getElementById("eventDescription").value;
 
     var loggedInUser = getCurrentUser();
     if (loggedInUser) {
@@ -15,6 +15,7 @@ function postEvent() {
       };
 
       Database.events.push(eventData);
+      localStorage.setItem('posts', JSON.stringify(Database.events))
 
       console.log('Event Posted:', eventData);
     } else {
