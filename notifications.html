@@ -21,7 +21,7 @@
         </div>
         <div class="username" id="displayedName"></div>
         <nav>
-            <a href="http://startup.turnt.click/user.html">Back button</a>
+            <a href="user.html">Back button</a>
         </nav>
     </header>
 
@@ -34,6 +34,15 @@
     <footer>
         <a href="https://github.com/joshbailey01/Startup">My Repo</a>
     </footer>
+
+    <script>
+        function displayCurUser() {
+            var username = localStorage.getItem("curUser");
+            var displayedName = document.getElementById("displayedName");
+            displayedName.innerHTML += username;
+        }
+        displayCurUser()
+    </script>
 
 </body>
 

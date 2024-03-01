@@ -15,8 +15,8 @@
         </div>
         <div class="username" id="displayedName"></div>
         <nav>
-            <a href="http://startup.turnt.click/user.html">User</a>
-            <a href="http://startup.turnt.click/create.html">Create</a>
+            <a href="user.html">User</a>
+            <a href="create.html">Create</a>
         </nav>
     </header>
 
@@ -33,10 +33,16 @@
               <h2>Upcoming Party!</h2>
               <p>Come join us for a night of fun and celebration. Music, dance, and good vibes guaranteed!</p>
             </div>
-          </div>
+            </div>
 
-          <script src="userInteraction.js"></script>
-
+        <script>
+            function displayCurUser() {
+                var username = localStorage.getItem("curUser");
+                var displayedName = document.getElementById("displayedName");
+                displayedName.innerHTML += username;
+            }
+            displayCurUser()
+        </script>
     </main>
 
     <script src="dataBase.js"></script>
@@ -44,6 +50,8 @@
     <footer>
         <a href="https://github.com/joshbailey01/Startup">My Repo</a>
     </footer>
+
+    <script src="userInteraction.js"></script>
 
 </body>
 

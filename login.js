@@ -1,16 +1,19 @@
-function addUser() {
+function addUser(event) {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    var user = {
-      username: username,
-      password: password
-    };
+    // var user = {
+    //   username: username,
+    //   password: password
+    // };
 
     localStorage.setItem("curUser", username);
 
     displayCurUser();
-    location.reload();
+    console.log(window.location.href)
+    event.preventDefault();
+    window.location.href = "home.html";
+    console.log(window.location.href);
   }
 
 function displayCurUser() {

@@ -27,3 +27,11 @@ function postEvent() {
     var username = document.getElementById('username').value;
     return Database.users[username];
   }
+
+function displayCurUser() {
+  var username = localStorage.getItem("curUser");
+  var displayedName = document.getElementById("displayedName");
+  displayedName.innerHTML += username;
+}
+
+displayCurUser()

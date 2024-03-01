@@ -73,6 +73,11 @@ main a {
     text-decoration: none;
 }
 
+.userInfo {
+    padding: 10px;
+    font-size: large;
+}
+
 .login-container {
     display: flex;
     flex-direction: column;

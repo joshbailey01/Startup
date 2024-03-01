@@ -16,15 +16,29 @@
         </div>
         <div class="username" id="displayedName"></div>
         <nav>
-            <a href="http://startup.turnt.click/home.html">Back button</a>
-            <a href="http://startup.turnt.click/notifications.html">Notification Center</a>
-            <a href="http://startup.turnt.click/index.html">Logout</a>
+            <a href="home.html">Back button</a>
+            <a href="notifications.html">Notification Center</a>
+            <a href="index.html">Logout</a>
         </nav>
         
     </header>
 
     <main>
-        <p>**Username & other info**</p>
+        <div class="userInfo" id="userInfo-username"></div>
+        <script>
+            function displayCurUser() {
+                var username = localStorage.getItem("curUser");
+                var displayedName = document.getElementById("displayedName");
+                displayedName.innerHTML += username;
+            }
+            displayCurUser()
+            function displayUserInfo() {
+                var username = localStorage.getItem("curUser");
+                var displayedName = document.getElementById("userInfo-username");
+                displayedName.innerHTML += username;
+            }
+            displayUserInfo()
+        </script>
     </main>
 
     <footer>

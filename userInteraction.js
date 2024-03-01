@@ -14,6 +14,6 @@ function copyLink() {
 
 function likePost() {
     var button = document.getElementById("like");
-    button.style.backgroundColor = 'white'
+    button.style.backgroundColor = 'white';
     sendLike();
 }
