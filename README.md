@@ -20,3 +20,18 @@
 ### Sketch    
 ![Startup Sketch](https://github.com/joshbailey01/Startup/assets/144954020/ad074e57-7f76-4654-b1d0-5c5eb538af7e)
 
+### CSS
+    Added style.css file and added css code to design the layout of the webpage.
+    Interactive nav bar
+    Login input boxes and button
+
+### JavaScript
+    Added JavaScript to save inputs from login boxes to local storage.
+    JS to display the username on the webpage.
+    JS to save post creation inputs for future database implementation.
+    JS scaffolding for future websocket integration that will allow client server communication for notifications.
+    JS for webpoage interaction, interactive buttons, functions for liking and sharing posts
+
+
+
+
