@@ -26,12 +26,20 @@
     Login input boxes and button
 
 ### JavaScript
-    Added JavaScript to save inputs from login boxes to local storage.
-    JS to display the username on the webpage.
-    JS to save post creation inputs for future database implementation.
-    JS scaffolding for future websocket integration that will allow client server communication for notifications.
-    JS for webpoage interaction, interactive buttons, functions for liking and sharing posts
+    JavaScript support for future login
+    view longer description:
+    Added login.js to save inputs from login boxes to local storage, as weel as display the username input on the webpage
 
+    JavaScript support for future database data
+    view longer description:
+    Added dataBase.js to create objects to be JSONified into a database
+    Added createPost.js to save post data to a database object
 
+    JavaScript support for future WebSocket
+    view longer description
+    Added notifications.js for future websocket integration that will allow client server communication for notifications
+
+    JavaScript support for your application's interaction logic
+    Added userInteractions.js for webpoage interaction, interactive buttons, functions for liking and sharing posts
 
 
