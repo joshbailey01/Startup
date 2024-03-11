@@ -1,0 +1,15 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "After interviewing university strudents across several campuses we found that the majority feel \r     like they don't always know whats happening in the social scene. Turnt solves this problem. \r     It is a wesbsite/app where people post, share, and save local parties. It alows people to see events \r     happening near their area, can generate more business for DJ's and small pop up shops, and \r     eliminates FOMO on college campuses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

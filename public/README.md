@@ -42,4 +42,15 @@
     JavaScript support for your application's interaction logic
     Added userInteractions.js for webpoage interaction, interactive buttons, functions for liking and sharing posts
 
+### Service
+    Create an HTTP service using Node.js and Express
+
+    Frontend served up using Express static middleware
+
+    Your frontend calls third party service endpoints
+
+    Your backend provides service endpoints
+
+    Your frontend calls your service endpoints
+
 
