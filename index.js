@@ -14,6 +14,18 @@ app.use(express.static('public'));
 var apiRouter = express.Router();
 app.use(`/api`, apiRouter);
 
+//Post event
+let events = []
+apiRouter.post('/post', (req, res) =>{
+    events.push(req.body)
+    res.send(events)
+})
+
+//Get posts
+apiRouter.get('/events', (req, res) =>{
+    res.send(events)
+})
+
 // Return the application's default page if the path is unknown
 app.use((_req, res) => {
     res.sendFile('index.html', { root: 'public' });
